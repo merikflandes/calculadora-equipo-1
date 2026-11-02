@@ -2,6 +2,7 @@
 
 # calculadora.py
 
+mario-division
 def dividir(a, b):
     if b == 0:
         return "Error: No se puede dividir entre cero"
@@ -23,3 +24,5 @@ def dividir(a, b):
         print("Saliendo...")
     else:
         print("Opción no válida")
+
+main
