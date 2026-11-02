@@ -34,7 +34,7 @@ def main():
         elif opcion == '2':
             print("Resultado:", restar(num1, num2))
         elif opcion == '3':
-            pass 
+            print("Resultado:", multiplicar(num1, num2))
         elif opcion == '4':
             print("Resultado:", dividir(num1, num2))
     elif opcion == '5':
