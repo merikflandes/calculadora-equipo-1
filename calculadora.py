@@ -8,11 +8,11 @@ def restar(a, b):
     return a - b
 
 def multiplicar(a, b):
-    return a * b
+    return a * b 
 
 def dividir(a, b):
     if b == 0:
-        return "Error: No se puede dividir entre cero"
+        return "No se puede dividir entre 0"
     return a / b
 
 def main():
@@ -25,7 +25,7 @@ def main():
     
     opcion = input("Elige una opción (1/2/3/4/5): ")
     
-    if opcion in ['1', '2', '3', '4']:
+    if opcion in ['1', '2', '3', '4', '5']:
         num1 = float(input("Ingresa el primer número: "))
         num2 = float(input("Ingresa el segundo número: "))
         
@@ -34,11 +34,11 @@ def main():
         elif opcion == '2':
             print("Resultado:", restar(num1, num2))
         elif opcion == '3':
-            print("Resultado:", multiplicar(num1, num2))
+            print("Resultado:", multiplicar(num1, num2)) 
         elif opcion == '4':
             print("Resultado:", dividir(num1, num2))
     elif opcion == '5':
-        print("Saliendo...")
+        print("Adios")
     else:
         print("Opción no válida")
 
