@@ -31,7 +31,9 @@ def main():
         
         if opcion == '1':
             print("Resultado:", sumar(num1, num2))
+            #Parte de Mauricio, Función de suma y implementación 
         elif opcion == '2':
+            #Parte del miyagui, Función de Multiplicación 
             print("Resultado:", restar(num1, num2))
         elif opcion == '3':
             print("Resultado:", multiplicar(num1, num2)) 
